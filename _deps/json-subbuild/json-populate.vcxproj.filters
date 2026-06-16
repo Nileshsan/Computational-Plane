@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Admin\Nilesh_Projects\PBS_Finsight\Backend\C++_server\_deps\json-subbuild\CMakeFiles\23464dceac50cefa3e78e9f648a6161c\json-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Admin\Nilesh_Projects\PBS_Finsight\Backend\C++_server\_deps\json-subbuild\CMakeFiles\23464dceac50cefa3e78e9f648a6161c\json-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Admin\Nilesh_Projects\PBS_Finsight\Backend\C++_server\_deps\json-subbuild\CMakeFiles\23464dceac50cefa3e78e9f648a6161c\json-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Admin\Nilesh_Projects\PBS_Finsight\Backend\C++_server\_deps\json-subbuild\CMakeFiles\23464dceac50cefa3e78e9f648a6161c\json-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Admin\Nilesh_Projects\PBS_Finsight\Backend\C++_server\_deps\json-subbuild\CMakeFiles\23464dceac50cefa3e78e9f648a6161c\json-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Admin\Nilesh_Projects\PBS_Finsight\Backend\C++_server\_deps\json-subbuild\CMakeFiles\23464dceac50cefa3e78e9f648a6161c\json-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Admin\Nilesh_Projects\PBS_Finsight\Backend\C++_server\_deps\json-subbuild\CMakeFiles\23464dceac50cefa3e78e9f648a6161c\json-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Admin\Nilesh_Projects\PBS_Finsight\Backend\C++_server\_deps\json-subbuild\CMakeFiles\23464dceac50cefa3e78e9f648a6161c\json-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Admin\Nilesh_Projects\PBS_Finsight\Backend\C++_server\_deps\json-subbuild\CMakeFiles\88d73050dbf38d720b8e7503ff03cb9b\json-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Admin\Nilesh_Projects\PBS_Finsight\Backend\C++_server\_deps\json-subbuild\CMakeFiles\38b48c80eb4c89f9130b7fc702f0a4ca\json-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Admin\Nilesh_Projects\PBS_Finsight\Backend\C++_server\_deps\json-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Admin\Nilesh_Projects\PBS_Finsight\Backend\C++_server\_deps\json-subbuild\CMakeFiles\json-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{30AF8D9F-E231-3DB1-807D-4F41FCEA15DD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,40 @@
+# Build files
+build/
+bin/
+obj/
+Debug/
+Release/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# Visual Studio
+.vs/
+*.vcxproj.user
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Executables
+*.exe
+*.dll
+
+# Python
+__pycache__/
+*.pyc
+
+# Environment
+.env
+
+# Large data
+*.csv
+*.db
+*.sqlite3
+
+# Secrets
+config_local.*

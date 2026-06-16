@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Admin\Nilesh_Projects\PBS_Finsight\Backend\C++_server\src\http_server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Nilesh_Projects\PBS_Finsight\Backend\C++_server\src\payment_analysis_engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Nilesh_Projects\PBS_Finsight\Backend\C++_server\src\service_impl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Nilesh_Projects\PBS_Finsight\Backend\C++_server\src\payment_analyzer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Nilesh_Projects\PBS_Finsight\Backend\C++_server\src\cashflow_predictor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Nilesh_Projects\PBS_Finsight\Backend\C++_server\src\client_categorizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Nilesh_Projects\PBS_Finsight\Backend\C++_server\src\expense_analyzer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Nilesh_Projects\PBS_Finsight\Backend\C++_server\src\advanced_cashflow_engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Nilesh_Projects\PBS_Finsight\Backend\C++_server\src\ml_cashflow_predictor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Nilesh_Projects\PBS_Finsight\Backend\C++_server\src\ml_integration_service.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Nilesh_Projects\PBS_Finsight\Backend\C++_server\src\decision_tree_predictor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Nilesh_Projects\PBS_Finsight\Backend\C++_server\src\four_stage_predictor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Admin\Nilesh_Projects\PBS_Finsight\Backend\C++_server\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="C:\Users\Admin\Nilesh_Projects\PBS_Finsight\Backend\C++_server\_deps\json-src\nlohmann_json.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B3B0702C-363C-3B47-8B1A-2583E4AF066D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

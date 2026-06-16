@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Admin\Nilesh_Projects\PBS_Finsight\Backend\C++_server\_deps\json-subbuild\CMakeFiles\38b48c80eb4c89f9130b7fc702f0a4ca\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{30AF8D9F-E231-3DB1-807D-4F41FCEA15DD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
