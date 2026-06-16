@@ -1,4 +1,266 @@
-# PBS Finsight C++ Processing Server
+
+<img width="1536" height="1024" alt="d33251de-7cd7-4a1d-9023-e1b2e1adf96f" src="https://github.com/user-attachments/assets/81b580c2-1f60-41e6-a366-19ab9e4cd3bf" />
+
+
+# Computational Plane — Deterministic Financial Analytics Engine
+
+A dedicated **C++ computational plane** for deterministic, low-latency financial analytics, designed to remain isolated from orchestration concerns rather than embedded inside them.
+
+---
+
+## Philosophy
+
+Modern financial systems are inherently orchestration-heavy, but orchestration and computation solve fundamentally different problems.
+
+One coordinates.
+
+One computes.
+
+Combining both eventually transforms analytical pipelines into monolithic bottlenecks.
+
+This engine exists to keep deterministic numerical workloads—cashflow forecasting, payment intelligence, expense decomposition, discount optimization, and statistical modeling—within their own execution domain, separate from API, persistence, authentication, and multi-tenancy concerns.
+
+> **A computational kernel should compute.**
+>
+> **An application layer should orchestrate.**
+>
+> **Neither needs to know how the other works.**
+
+---
+
+# Architectural Overview
+
+The engine is organized as a five-stage computational pipeline:
+
+```
+Input Data
+     │
+     ▼
+┌───────────────────────────────┐
+│ Ingestion & Normalization     │
+└───────────────────────────────┘
+     │
+     ▼
+┌───────────────────────────────┐
+│ Feature & Signal Generation   │
+└───────────────────────────────┘
+     │
+     ▼
+┌───────────────────────────────┐
+│ Compute & Analytics           │
+└───────────────────────────────┘
+     │
+     ▼
+┌───────────────────────────────┐
+│ Modeling & Optimization       │
+└───────────────────────────────┘
+     │
+     ▼
+┌───────────────────────────────┐
+│ Result Aggregation            │
+└───────────────────────────────┘
+     │
+     ▼
+ Analytical Output
+```
+
+Each stage is intentionally scoped.
+
+Outputs from one stage feed the next, while application-level concerns such as authentication, persistence, tenancy, and API exposure remain entirely outside the compute boundary.
+
+This separation is enforced architecturally rather than conventionally.
+
+---
+
+# Pipeline Stages
+
+## 1. Ingestion & Normalization Layer
+
+Responsible for converting structured financial events into memory-efficient internal representations.
+
+### Responsibilities
+
+* Schema validation
+* Data cleaning
+* Type normalization
+* Memory mapping
+* Internal representation generation
+
+---
+
+## 2. Feature & Signal Generation Layer
+
+Transforms normalized transactional streams into analytical features suitable for computation.
+
+### Components
+
+* Time-series decomposition
+* Sliding-window aggregation
+* Statistical feature extraction
+* Matrix transformations
+* Signal engineering
+
+---
+
+## 3. Compute & Analytics Layer
+
+The primary analytical kernel.
+
+### Domains
+
+* Cashflow forecasting
+* Payment intelligence
+* Fixed vs variable expense analytics
+* Early-payment discount computation
+* Trend analysis
+* Anomaly detection
+
+---
+
+## 4. Modeling & Optimization Layer
+
+Performs higher-order numerical computations.
+
+### Computational Modules
+
+* Statistical modeling
+* Regression analysis
+* Numerical optimization
+* Matrix computations
+* Sensitivity analysis
+* Scenario evaluation
+
+---
+
+## 5. Result Aggregation & Serialization Layer
+
+Transforms analytical outputs into transportable representations.
+
+### Responsibilities
+
+* Result aggregation
+* Precision control
+* Binary serialization
+* Memory-efficient packaging
+
+---
+
+# Execution Model
+
+The engine is built around STL-backed memory-efficient structures and concurrent execution primitives.
+
+## Data Structures
+
+* `std::vector`
+* `std::unordered_map`
+* `std::deque`
+* Cache-friendly contiguous layouts
+
+## Concurrency Model
+
+* Multithreaded execution
+* Thread pools
+* Futures and asynchronous tasks
+* Mutex-protected shared state
+* Event-driven compute activation
+
+## Performance Principles
+
+* Deterministic execution paths
+* Memory locality awareness
+* Throughput-oriented architecture
+* Reduced synchronization overhead
+* Isolation of compute workloads
+
+---
+
+# Numerical Capabilities
+
+The computational plane supports:
+
+* Matrix transformations
+* Time-series decomposition
+* Statistical signal generation
+* Sliding-window analytics
+* Numerical optimization
+* Feature engineering
+* Trend extraction
+* Scenario analysis
+* Predictive modeling pipelines
+
+---
+
+# Compute Plane × Control Plane
+
+The architecture intentionally separates computation from orchestration.
+
+## Compute Plane (C++)
+
+Responsible for:
+
+* Numerical kernels
+* Statistical models
+* Analytical pipelines
+* Feature extraction
+* Optimization routines
+* Prediction frameworks
+
+## Control Plane
+
+Responsible for:
+
+* Authentication
+* Authorization
+* Persistence
+* Multi-tenancy
+* API orchestration
+* Resource lifecycle management
+
+Neither layer depends on implementation details of the other.
+
+---
+
+# Design Principles
+
+* Separation of concerns
+* Deterministic computation
+* Throughput-oriented execution
+* Memory efficiency
+* Concurrent processing
+* Domain isolation
+* Cross-language interoperability
+* Independent evolution of compute and control planes
+
+---
+
+# Repository Scope
+
+This repository contains the computational plane in isolation for architectural clarity and review.
+
+Production integrations, orchestration layers, authentication systems, tenancy boundaries, and proprietary infrastructure have been intentionally excluded.
+
+Synthetic and representative datasets are used in place of production financial information.
+
+---
+
+# Future Directions
+
+* SIMD accelerated kernels
+* Vectorized numerical operations
+* Thread-pool scheduling improvements
+* Memory pool allocators
+* Parallel statistical pipelines
+* Time-series forecasting enhancements
+* Distributed compute execution
+* Hardware-aware optimization strategies
+
+---
+
+> **When financial computation needs to be deterministic, low-latency, and decoupled from application logic — Python doesn't belong in that layer.**
+
+
+
+
 
 A high-performance gRPC-based processing server that analyzes financial transaction data and generates insights.
 
